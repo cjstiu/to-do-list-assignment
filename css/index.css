@@ -1,0 +1,28 @@
+h2 {
+    color: blue;
+}
+
+body {
+    padding-top: 20px;
+}
+
+#create-task {
+    margin-bottom: 20px;
+}
+
+#todo-list .row {
+    margin-bottom: 10px;
+}
+
+#todo-list p {
+    margin-bottom: 0;
+    line-height: 34px;
+}
+
+#todo-list .delete {
+    float: right;
+}
+
+.delete {
+    margin-right: 5px;
+  }
