@@ -1,28 +1,38 @@
-h2 {
-    color: blue;
-}
-
-body {
+.container {
     padding-top: 20px;
 }
 
-#create-task {
-    margin-bottom: 20px;
+.task-content {
+    font-size: 1.3rem;
+    font-family: 'Arial';
 }
 
-#todo-list .row {
-    margin-bottom: 10px;
+.mark-complete {
+    width:20px;
+    height: 20px;
 }
 
-#todo-list p {
-    margin-bottom: 0;
-    line-height: 34px;
+.btn-sm {
+    font-size:0.875rem;
+    padding: 0.4em;
 }
 
-#todo-list .delete {
-    float: right;
+.form-check-input {
+    width: 1em;
+    height: 1em;
 }
 
-.delete {
-    margin-right: 5px;
-  }
+.row {
+    min-height: 40 px;
+}
+
+.todo-item {
+}
+
+div {
+    padding: 2px;
+}
+
+h2 {
+    font-size: 5em;
+}

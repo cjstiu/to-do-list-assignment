@@ -7,7 +7,7 @@ $(document).ready(function() {
             success: function(response, textStatus) {
                 $('#todo-list').empty();
                 response.tasks.forEach(function (task){
-                    $('#todo-list').append('<div class="row"><p class="col-xs-8">' + task.content + '</p><button class="delete" data-id="' + task.id + '">Delete</button><input type="checkbox" class="mark-complete" data-id="' + task.id + '"' + (task.completed ? 'checked' : '') + '>');
+                    $('#todo-list').append('<div class="row align-items-center "><input type="checkbox" class="mark-complete col-1" data-id="' + task.id + '"' + (task.completed ? 'checked' : '') + '><p class="col-9 text-left mb-0 task-content">' + task.content + '</p><button class="delete btn btn-sm btn-danger col-2" data-id="' + task.id + '">Delete</button>');
                 })
             },
             error: function (request, textStatus, errorMessage) {
